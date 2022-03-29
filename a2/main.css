@@ -1,0 +1,214 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+button {
+	outline: none !important;
+	border: none;
+
+}
+
+button:hover {
+	cursor: pointer;
+
+  
+  background-color: #5B84B1FF;
+  
+}
+
+.contact1 {
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  
+
+  
+  background: #00467F; 
+  background: -webkit-linear-gradient(to bottom, #A5CC82, #00467F);  
+  background: linear-gradient(to bottom, #A5CC82, #00467F); 
+  background-color: #1a70c6;
+background-image: linear-gradient(180deg, #1a70c6 0%, #cbb6e0 100%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact1 {
+  width: 1163px;
+  background: #fff;
+ 
+background-image: linear-gradient(180deg, #1a70c6 0%, #cbb6e0 100%);
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 90px 130px 88px 148px;
+}
+
+.contact1-pic {
+  width: 350px;
+
+}
+
+.contact1-pic img {
+  max-width: 100%;
+}
+
+.contact1-form {
+  width: 390px;
+}
+
+.contact1-form-title {
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  color: #5F4B8BFF;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+  
+}
+
+input.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+  font-family: cursive;
+}
+
+textarea.input1 {
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-family: cursive;
+}
+textarea.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.container-contact1-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact1-form-btn {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  
+  
+  background-color: #5F4B8BFF;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  font-family: cursive;
+}
+
+@media (max-width: 1200px) {
+  .contact1-pic {
+    width: 33.5%;
+  }
+
+  .contact1-form {
+    width: 44%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-contact1 {
+    padding: 90px 80px 88px 90px;
+  }
+
+  .contact1-pic {
+    width: 35%;
+  }
+
+  .contact1-form {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-contact1 {
+    padding: 90px 80px 88px 80px;
+  }
+
+  .contact1-pic {
+    display: none;
+  }
+
+  .contact1-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-contact1 {
+    padding: 90px 15px 88px 15px;
+  }
+}
